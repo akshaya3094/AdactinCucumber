@@ -1,0 +1,7 @@
+-------------------------------------------------------------------------------
+Test set: com.adactin.runner.TestRunner
+-------------------------------------------------------------------------------
+Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0.71 s <<< FAILURE! - in com.adactin.runner.TestRunner
+com.adactin.runner.TestRunner  Time elapsed: 0.698 s  <<< ERROR!
+java.lang.IllegalArgumentException: testName cannot be null or empty
+
