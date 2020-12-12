@@ -65,7 +65,7 @@ public class StepDefinition extends BaseClass {
 
 	@Then("^User verifies homepage navigates to search hotel page$")
 	public void user_verifies_homepage_navigates_to_search_hotel_page() throws Throwable {
-		//Assert.assertEquals("A", "a");
+		Assert.assertEquals("A", "a");
 	}
 
 	@When("^User selects the location \"([^\"]*)\"$")

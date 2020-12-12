@@ -14,6 +14,7 @@ Examples:
 |BBB|222|
 |akshaya94|Aj94may#|
 
+@RegressionTest
 Scenario: Verify user is able to search hotel
 When User selects the location "London"
 And User selects the hotel "Hotel Cornice"
@@ -26,6 +27,7 @@ And User selects children per room "0"
 And User clicks search button
 Then User verifies search hotel page navigates to select hotel page
 
+@SanityTest
 Scenario: Verify user is able to select hotel
 When User makes hotel selection
 And User clicks continue button
